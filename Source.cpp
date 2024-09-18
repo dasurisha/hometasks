@@ -108,7 +108,7 @@
 #include <cctype>
 using namespace std;
 
-string getshifr(const string& text) {
+string getSHifr(const string& text) {
 	string result = "";
 
 	for (char ch : text) {
@@ -154,5 +154,5 @@ int main() {
 	string text;
 	getline(cin, text);
 	cout << "Полученный шифр: ";
-	cout << getshifr(text) << endl;
+	cout << getSHifr(text) << endl;
 }
